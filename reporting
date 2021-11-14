@@ -13,7 +13,7 @@ def audit():
     e = '.xlsx'
     filename = a+b+c+d+e
     
-    if b == 'q1':    
+    if b == 'Q1':    
         month = ['january','february','march']
         df = pd.read_excel(filename,sheet_name=month)
         m_0 = round(df['january']['sale'].sum(),2)
@@ -21,7 +21,7 @@ def audit():
         m_2 = round(df['march']['sale'].sum(),2)
         print('THIS IS THE Q1 REPORT',end="\n\n\n")
         
-    if b == 'q2':    
+    if b == 'Q2':    
         month = ['april','may','june']
         df = pd.read_excel(filename,sheet_name=month)
         m_0 = round(df['april']['sale'].sum(),2)
@@ -29,7 +29,7 @@ def audit():
         m_2 = round(df['june']['sale'].sum(),2)
         print('THIS IS THE 2 REPORT',end="\n\n\n")
         
-    if b == 'q3':    
+    if b == 'Q3':    
         month = ['july','august','september']
         df = pd.read_excel(filename,sheet_name=month)
         m_0 = round(df['july']['sale'].sum(),2)
@@ -37,7 +37,7 @@ def audit():
         m_2 = round(df['september']['sale'].sum(),2)
         print('THIS IS THE Q3 REPORT',end="\n\n\n")
         
-    if b == 'q4':    
+    if b == 'Q4':    
         month = ['october','november','december']
         df = pd.read_excel(filename,sheet_name=month)
         m_0 = round(df['october']['sale'].sum(),2)
