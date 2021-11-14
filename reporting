@@ -1,9 +1,9 @@
-#using a filepath of '../excel/q3_2021.xlsx'
+#previously was using a filepath of '../excel/Q3_2021.xlsx'
 
 import pandas as pd
 
 def audit():
-    a = '../excel/'
+    a = 'excel/'
     print('what quarter?'.upper())
     b = input()
     c = '_'
