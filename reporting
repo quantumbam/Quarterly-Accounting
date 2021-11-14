@@ -3,7 +3,7 @@
 import pandas as pd
 
 def audit():
-    a = 'excel/'
+   
     print('what quarter?'.upper())
     b = input()
     c = '_'
@@ -11,7 +11,7 @@ def audit():
     d = input()
     print('',end="\n\n\n")
     e = '.xlsx'
-    filename = a+b+c+d+e
+    filename = b+c+d+e
     
     if b == 'Q1':    
         month = ['january','february','march']
